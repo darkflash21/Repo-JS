@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de DNI</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <script src="Validar.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <main class="calculator">
+            <header>
+                <h1>Calculadora de Letra del DNI</h1>
+                <p>¡Calcule su letra del DNI con nuestra herramienta fácil de usar!</p>
+            </header>
+            <div class="form">
+                <form id="dniForm">
+                    <div>
+                        <label for="dni" class="label">Números del DNI</label>
+                        <input type="number" name="dni" id="dni" placeholder="123456" class="input-field" required>
+                    </div>
+                    <div>
+                        <label for="letra" class="label">Letra del DNI</label>
+                        <input type="text" name="letra" id="letra" placeholder="T" class="input-field" required>
+                    </div>
+                    <button type="submit" class="submit-button">Calcular</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
